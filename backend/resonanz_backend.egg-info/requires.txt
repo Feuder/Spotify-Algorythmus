@@ -1,0 +1,17 @@
+alembic<2,>=1.14
+apscheduler<4,>=3.11
+cryptography<46,>=44
+fastapi<1,>=0.115
+httpx<1,>=0.28
+openai<2,>=1.66
+psycopg[binary]<4,>=3.2
+pydantic-settings<3,>=2.8
+python-multipart<1,>=0.0.20
+sqlalchemy<3,>=2.0
+uvicorn[standard]<1,>=0.34
+
+[dev]
+pytest<9,>=8.3
+pytest-cov<7,>=6
+respx<1,>=0.22
+ruff<1,>=0.11

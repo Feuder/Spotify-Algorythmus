@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: resonanz-backend
+Version: 0.1.0
+Summary: Persoenlicher KI-Musikassistent
+Requires-Python: >=3.12
+Requires-Dist: alembic<2,>=1.14
+Requires-Dist: apscheduler<4,>=3.11
+Requires-Dist: cryptography<46,>=44
+Requires-Dist: fastapi<1,>=0.115
+Requires-Dist: httpx<1,>=0.28
+Requires-Dist: openai<2,>=1.66
+Requires-Dist: psycopg[binary]<4,>=3.2
+Requires-Dist: pydantic-settings<3,>=2.8
+Requires-Dist: python-multipart<1,>=0.0.20
+Requires-Dist: sqlalchemy<3,>=2.0
+Requires-Dist: uvicorn[standard]<1,>=0.34
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8.3; extra == "dev"
+Requires-Dist: pytest-cov<7,>=6; extra == "dev"
+Requires-Dist: respx<1,>=0.22; extra == "dev"
+Requires-Dist: ruff<1,>=0.11; extra == "dev"
