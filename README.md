@@ -45,9 +45,10 @@ Optional:
 - `MUSICBRAINZ_CONTACT_EMAIL` für MusicBrainz und AcousticBrainz
 - `OPENAI_API_KEY` für Structured Outputs bei manuellen Texteingaben
 
-GetSongBPM ist kostenlos, verlangt aber einen sichtbaren Backlink. Resonanz
-zeigt diesen deshalb im Systemstatus an. Für die Schlüsselregistrierung kann
-GetSongBPM zusätzlich eine öffentlich erreichbare Backlink-URL verlangen.
+BPM- und Tonartdaten werden von
+<a href="https://getsongbpm.com/">GetSongBPM</a> bereitgestellt. GetSongBPM
+ist kostenlos, verlangt aber diesen sichtbaren Backlink. Resonanz zeigt ihn
+zusätzlich im Systemstatus an.
 
 Ohne `OPENAI_API_KEY` verwendet Resonanz eine lokale deutsche Textanalyse.
 Spotify-Verlauf, Tokens und Hördaten werden niemals an OpenAI übertragen.
